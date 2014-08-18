@@ -18,7 +18,7 @@ namespace Rentacar.Controllers
     {
 
         [WebMethod]
-        public string VerificaDisponibilidade(string tipoVeiculo, string dataRetireada, string dataDevolucao)
+        public string VerificaDisponibilidade(string tipoVeiculo, string dataRetirada, string dataDevolucao)
         {
             return "Hello World";
         }
